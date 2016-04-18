@@ -1,0 +1,11 @@
+name: CurseHub
+main: com.github.elcreeperhd.CurseHub.Main
+version: '0.1.0'
+depend: [PermissionsEx]
+description: The plugin of CurseMC for lobby! Replaces essentials and adds everything you need!
+author: Mr_Matwin3
+website: https://bukkit.org/members/elcreeperhd.91083964/
+permissions:
+  curse.admin:
+    description: ddd
+    default: false
