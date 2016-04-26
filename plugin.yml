@@ -7,5 +7,9 @@ author: Mr_Matwin3
 website: https://bukkit.org/members/elcreeperhd.91083964/
 permissions:
   curse.admin:
-    description: ddd
+    description: Curse Administrator
     default: false
+commands:
+    gm:
+      description: Change Gamemode! WIP
+      usage: /gm

@@ -12,6 +12,7 @@ public class Main extends JavaPlugin{
 
 	public void onEnable(){	
 		getServer().getPluginManager().registerEvents(event,this);
+		getCommand("gm").setExecutor(new Commands());
 		log.info("CurseHub is enabled");
 		}
 	   
